@@ -29,13 +29,13 @@ function Signup() {
                     </span>
                 </div>
                 <div className='col d-flex justify-content-between'>
-                    <div className='col'>
+                    <div className='col d-md-flex justify-content-between'>
                         <Card img={google} profile={profile} name="Albert" rating={4.8} price="2999" color='white'/>
                     </div>
-                    <div className='col'>
+                    <div className='col d-md-flex justify-content-between'>
                         <Card img={controller} profile={profile} name="Albert" rating={4.5} price="2999" color='white'/>
                     </div>
-                    <div className=' col d-none d-lg-flex justify-content-between '>
+                    <div className=' col d-none d-md-flex justify-content-between '>
                         <Card img={google} profile={profile} name="Albert" rating={4.7} price="2999" color='white'/>
                     </div>
                 </div>
@@ -43,13 +43,13 @@ function Signup() {
             <div className='col d-flex justify-content-between'>
                 <Card img={controller} profile={profile} name="Albert" rating={4.8} price="2999" color='white'/>
                 <Card img={google} profile={profile} name="Albert" rating={4.6} price="2999" color='white'/>
-                <div className='d-none d-lg-flex justify-content-between'>
+                <div className='d-none d-md-flex justify-content-between'>
                     <Card img={controller} profile={profile} name="Albert" rating={4.3} price="2999" color='white'/>
                 </div>
                 <div className='d-none d-lg-flex justify-content-between'>
                     <Card img={google} profile={profile} name="Albert" rating={5.0} price="2999" color='white'/>
                 </div>
-                <div className='d-none d-lg-flex justify-content-between'>
+                <div className='d-none d-xl-flex justify-content-between'>
                     <Card img={controller} profile={profile} name="Albert" rating={4.2} price="2999" color='white'/>
                 </div>
             </div>
@@ -73,13 +73,13 @@ function Signup() {
             <div className='col d-flex justify-content-between'>
                 <Card className="col" img={google} profile={profile} name="Albert" rating={4.8} price="2999" color='yellow' bg='#e7fefb' border='#07a189'/>
                 <Card className="col" img={controller} profile={profile} name="Albert" rating={4.5} price="2999" color='yellow' bg='#e7fefb' border='#07a189'/>
-                <div className='d-none d-lg-flex'>
+                <div className='d-none d-md-flex'>
                     <Card className="col" img={google} profile={profile} name="Albert" rating={4.7} price="2999" color='yellow' bg='#e7fefb' border='#07a189'/>
                 </div>
                 <div className='d-none d-lg-flex'>
                     <Card className="col" img={controller} profile={profile} name="Albert" rating={4.5} price="2999" color='yellow' bg='#e7fefb' border='#07a189'/>
                 </div>
-                <div className='d-none d-lg-flex'>
+                <div className='d-none d-xl-flex'>
                     <Card className="col" img={google} profile={profile} name="Albert" rating={4.7} price="2999" color='yellow' bg='#e7fefb' border='#07a189'/>
                 </div>
             </div>
@@ -114,13 +114,13 @@ function Signup() {
             <div className='col d-flex justify-content-between'>
                 <Card className="col" img={google} profile={profile} name="Albert" rating={4.8} price="2999" color='yellow' bg='white' border='#07a189'/>
                 <Card className="col" img={controller} profile={profile} name="Albert" rating={4.5} price="2999" color='yellow' bg='white' border='#07a189'/>
-                <div className='d-none d-lg-flex'>
+                <div className='d-none d-md-flex'>
                     <Card className="col" img={google} profile={profile} name="Albert" rating={4.7} price="2999" color='yellow' bg='white' border='#07a189'/>
                 </div>
                 <div className='d-none d-lg-flex'>
                     <Card className="col" img={controller} profile={profile} name="Albert" rating={4.5} price="2999" color='yellow' bg='white' border='#07a189'/>
                 </div>
-                <div className='d-none d-lg-flex'>
+                <div className='d-none d-xl-flex'>
                     <Card className="col" img={google} profile={profile} name="Albert" rating={4.7} price="2999" color='yellow' bg='white' border='#07a189'/>
                 </div>
             </div>
