@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Task2 />}  />
-          <Route path="/home" element={<HomeScreen />} />
+          <Route path="shivam1272.github.io/task-react/" element={<Task2 />}  />
+          <Route path="shivam1272.github.io/task-react//home" element={<HomeScreen />} />
         </Routes>
       </BrowserRouter>
     </div>
