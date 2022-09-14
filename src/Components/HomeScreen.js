@@ -9,19 +9,19 @@ import Footer from './Footer'
 
 function Signup() {
   return (
-    <div>
+    <div className='overflow-auto'>
         <Navbar/>
-        <div className='d-none d-md-flex  justify-content-around p-2' style={{background:'#c7f3ea',fontWeight:'bold'}}>
-            <span>Programming & Tech</span>
-            <span>Design & Art</span>
-            <span>Writing & Translation</span>
-            <span>SEO & Digital Marketing</span>
-            <span>Music & Audio</span>
-            <span>Video & Animation</span>
+        <div className='d-none d-md-flex  justify-content-around ' style={{background:'#c7f3ea',fontWeight:'bold'}}>
+            <span className='p-1'>Programming & Tech</span>
+            <span className='p-1'>Design & Art</span>
+            <span className='p-1'>Writing & Translation</span>
+            <span className='p-1'>SEO & Digital Marketing</span>
+            <span className='p-1'>Music & Audio</span>
+            <span className='p-1'>Video & Animation</span>
         </div>
         {/* 1 container */}
-        <div className='container-fluid py-2' style={{background:'#07a189'}}>
-            <div className='row justify-content-between p-4'>
+        <div className='container-fluid overflow-auto px-3 pt-3' style={{background:'#07a189'}}>
+            <div className='row justify-content-between'>
                 <div className='col' style={{paddingTop:50, color:'white', fontSize:24}}>
                     <p>Velit officia consequent</p>
                     <span>
@@ -32,10 +32,10 @@ function Signup() {
                     <div className='col d-md-flex justify-content-between'>
                         <Card img={google} profile={profile} name="Albert" rating={4.8} price="2999" color='white'/>
                     </div>
-                    <div className='col d-md-flex justify-content-between'>
+                    <div className='col d-md-flex justify-content-between pr-3'>
                         <Card img={controller} profile={profile} name="Albert" rating={4.5} price="2999" color='white'/>
                     </div>
-                    <div className=' col d-none d-md-flex justify-content-between '>
+                    <div className=' col d-none d-lg-flex justify-content-between'>
                         <Card img={google} profile={profile} name="Albert" rating={4.7} price="2999" color='white'/>
                     </div>
                 </div>
@@ -53,12 +53,12 @@ function Signup() {
                     <Card img={controller} profile={profile} name="Albert" rating={4.2} price="2999" color='white'/>
                 </div>
             </div>
-            <div className='d-flex text-justify justify-content-end p-3' >
+            <div className='d-flex text-justify justify-content-end pb-3 pt-3' >
                 <button style={{color:'white',background:'#07a189' ,border:'none'}}>See More<i className='fa fa-arrow-right' style={{color:'white'}}/></button>
             </div>
         </div>
         {/* 2nd container */}
-        <div className='p-5' style={{background:'#e7fefb'}}>
+        <div className='px-3 pt-3 overflow-auto' style={{background:'#e7fefb'}}>
             <div className='col'>
                 <div>
                     <p style={{color:'#07a189', fontSize:24}}>Velit officia consequent</p>
@@ -85,7 +85,7 @@ function Signup() {
             </div>
         </div>
         {/* 3rd container */}
-        <div className= ' row d-flex justify-content-around m-3'>
+        <div className= 'row d-flex justify-content-around m-3'>
             <div className='col' style={{height:300}}>
                 <img style={{maxHeight:'100%'}} src={g} alt=''/>
             </div>
@@ -99,7 +99,7 @@ function Signup() {
             </div>
         </div>
         {/* 4th container */}
-        <div className='p-5' style={{background:'#07a189'}}>
+        <div className='p-3 overflow-auto' style={{background:'#07a189'}}>
             <div className='col'>
                 <div className='text-center'>
                     <p style={{fontSize:24}}>Velit officia consequent</p>
@@ -107,7 +107,7 @@ function Signup() {
                         Sadipscing amet est gubergren duo takimata et lorem accusam.
                     </span>
                 </div>
-                <div className='d-flex text-justify justify-content-end ' >
+                <div className='d-flex text-justify justify-content-end py-3' >
                     <button style={{color:'white',background:'#07a189' ,border:'none'}}>See More<i className='fa fa-arrow-right' style={{color:'white'}}/></button>
                 </div>
             </div>

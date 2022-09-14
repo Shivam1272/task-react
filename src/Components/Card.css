@@ -1,5 +1,7 @@
 .card1{
+    /* min-width: 180px; */
     max-width: 100%;
+    height: 395px;
     margin: 5px;
     padding: 3px;
     border-radius: 10px;
